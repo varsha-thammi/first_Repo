@@ -3,3 +3,7 @@ print("Hello, World!")
 print("Welcome to Python programming.")
 print("This is a simple program with multiple print statements.")
 print("Have a great day!")
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Alice"))
